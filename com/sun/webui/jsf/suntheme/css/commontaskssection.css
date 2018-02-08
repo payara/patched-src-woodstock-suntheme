@@ -1,4 +1,4 @@
-/*
+
  * The contents of this file are subject to the terms
  * of the Common Development and Distribution License
  * (the License).  You may not use this file except in
@@ -70,15 +70,15 @@
 .commonTaskGroup_4_sun4 .commonTask_4_sun4 {
 	margin:0 0 5px 0;
 }
-.commonTask_4_sun4 .left_sun4 {
+/* .commonTask_4_sun4 .left_sun4 { */
 	/*border-top-style:solid;
 	border-top-width:1px;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
 	border-left-style:solid;
 	border-left-width:1px;*/
-}
-.commonTask_4_sun4 .center_sun4 {
+/* } */
+/* .commonTask_4_sun4 .center_sun4 { */
 	/*border-top-style:solid;
 	border-top-width:1px;
 	border-bottom-style:solid;
@@ -91,8 +91,9 @@
 	border-bottom-width:1px;
 	border-right-style:solid;
 	border-right-width:1px;*/
-}
-.commonTask_4_sun4 a.TskScnTxtBg_sun4,.commonTask_4_sun4  a.TskScnTxtBgOvr_sun4 {
+/* } */
+/*.commonTask_4_sun4 a.TskScnTxtBg_sun4,*/
+.commonTask_4_sun4  a.TskScnTxtBgOvr_sun4 {
 	display: block;
 	position: relative;
 	width: 100%;
@@ -130,12 +131,12 @@
 	/*border-left-style:solid;
 	border-left-width:1px;*/
 }
-.commonTask_4_sun4 .TskScnTskPdng_sun4 {
+/* .commonTask_4_sun4 .TskScnTskPdng_sun4 {
 	padding: 0px 7px;
 	display: block;
 	padding-top: 4px;
 	padding-bottom: 3px;
-}
+} */
 .commonTask_4_sun4 .TskScnTskLftBtm_sun4, .commonTask_4_sun4 .TskScnTskLftTp_sun4, .commonTask_4_sun4 .TskScnTskRghtBtm_sun4, .commonTask_4_sun4 .TskScnTskRghtTp_sun4 {
 	/*position: absolute;
 	width: 8px;
@@ -184,48 +185,48 @@
 .commonTaskSection_4_sun4 .header_sun4, .commonTaskSection_4_sun4 .help_sun4, .commonTaskGroup_4_sun4 .header_sun4 {
 	color: #0a303d;
 }
-.commonTask_4_sun4 .left_sun4 {
+/* .commonTask_4_sun4 .left_sun4 { */
 	/*border-top-color:#AEB3B8;
 	border-bottom-color:#AEB3B8;
 	border-left-color:#AEB3B8;*/
-}
-.commonTask_4_sun4 .center_sun4 {
+/* } */
+/* .commonTask_4_sun4 .center_sun4 { */
 	/*border-top-color:#AABCC8;
 	border-bottom-color:#AABCC8;*/
 }
-.commonTask_4_sun4 .right_sun4 {
+/* .commonTask_4_sun4 .right_sun4 { */
 	/*background-color: #99B3C0;
 	border-top-color:#AABCC8;
 	border-bottom-color:#AABCC8;
 	border-right-color:#AABCC8;*/
-}
+/* } */
 .commonTask_4_sun4 .background_sun4 {
 	/*background: #9AB2BF url(../images/commontaskssection/gradation-grey.gif) right top repeat-x;*/
         width:100%;
 }
-.commonTask_4_sun4 a.TskScnTxtBg_sun4 {
+/* .commonTask_4_sun4 a.TskScnTxtBg_sun4 { */
 	/*border-left-color:#AABCC8;*/
-}
-.commonTask_4_sun4 a.TskScnTxtBg_sun4:link,.commonTask_4_sun4  a.TskScnTxtBg_sun4:visited {
+/* } */
+/*.commonTask_4_sun4 a.TskScnTxtBg_sun4:link,.commonTask_4_sun4  a.TskScnTxtBg_sun4:visited {
 	background: #E2E7EA;
 	color:#333333;
-        width: 105%;
-        margin-right: 20px; 
-        margin-left: -2%;
-       -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-        border-radius: 5px;
-       -webkit-box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
-       -moz-box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
-        box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
-}
-.commonTask_4_sun4 a.TskScnTxtBg_sun4:hover {
+	width: 105%;
+	margin-right: 20px;
+	margin-left: -2%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
+	-moz-box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
+	box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
+}*/
+/* .commonTask_4_sun4 a.TskScnTxtBg_sun4:hover {
 	background:#4581B3;
        -webkit-box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
        -moz-box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
         box-shadow: inset 0px 0px 7px -2px rgba(102,102,102,1);
 	color:#FFF;
-}
+} */
 .commonTask_4_sun4 .infoPanel_sun4 {
 	border-color: #AABCC8;
 	background-color: #F4F6F7;
@@ -257,9 +258,9 @@
 .commonTask_4_sun4 .TskScnTskRghtTp_sun4 {
 	background-image: url(../images/commontaskssection/rightTop.gif);*/
 } 
-.commonTask_4_sun4 .TskScnTskRghtBrdr_sun4 {
+/* .commonTask_4_sun4 .TskScnTskRghtBrdr_sun4 { */
 	/*background-color: #AABCC8;*/
-}
+/* } */
 /*---*/
 
 /* TYPOGRAPHY */
@@ -280,3 +281,10 @@
 	font-weight: bold;
 }
 
+
+
+
+/* Home page button left margins. */
+.left_sun4 {
+	background: red;
+}

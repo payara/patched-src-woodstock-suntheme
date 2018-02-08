@@ -84,12 +84,13 @@ a.BcmLnk_sun4:hover {
 
 /* BUTTONS */
 
-.Btn1_sun4:hover{
+/* .Btn1_sun4:hover{
         background:#f89d1f !important;	
         cursor:pointer
-}
+} */
 
-.Btn1_sun4, .Btn1Mni_sun4 {
+/* .Btn1_sun4,  */
+.Btn1Mni_sun4 {
 	/*background:#ABD2EB url(../images/button/primary-enabled.gif) repeat-x top;*/
 	border-top-color:#6C8197;
 	border-right-color:#4E647A;
@@ -131,7 +132,8 @@ a.BcmLnk_sun4:hover {
 	border-left-color:#A7AFB8;
 }
 
-.Btn2Dis_sun4, .Btn2MniDis_sun4 {
+/* .Btn2Dis_sun4,  */
+.Btn2MniDis_sun4 {
 	background:#D1D4DB url(../images/button/secondary-disabled.gif) repeat-x top;
 	color:#7C7D82;
 	border-top-color:#CCCDD0;
@@ -143,21 +145,24 @@ a.BcmLnk_sun4:hover {
 .Btn1Hov_sun4, .Btn1MniHov_sun4, .Btn2Hov_sun4, .Btn2MniHov_sun4 {
 	cursor:pointer;
 }
-.MstDiv_sun4 .Btn1_sun4, .MstDiv_sun4 .Btn1Mni_sun4, .MstDiv_sun4 .Btn2_sun4, .MstDiv_sun4 .Btn2Mni_sun4, .MstDiv_sun4 .Btn1Hov_sun4, .MstDiv_sun4 .Btn1MniHov_sun4, .MstDiv_sun4 .Btn2Hov_sun4, .MstDiv_sun4 .Btn2MniHov_sun4,
-.mastheadButton_4_sun4 a:link, .mastheadButton_4_sun4 a:visited, .mastheadButton_4_sun4 a:hover {
+/*.MstDiv_sun4 .Btn1_sun4,*/ .MstDiv_sun4 .Btn1Mni_sun4, .MstDiv_sun4 .Btn2_sun4, .MstDiv_sun4 .Btn2Mni_sun4, .MstDiv_sun4 .Btn1Hov_sun4, .MstDiv_sun4 .Btn1MniHov_sun4, .MstDiv_sun4 .Btn2Hov_sun4, .MstDiv_sun4 .Btn2MniHov_sun4,
+/* .mastheadButton_4_sun4 a:link, .mastheadButton_4_sun4 a:visited, .mastheadButton_4_sun4 a:hover  */
+{
 	color:#FFF;
 	vertical-align:middle;
-}.MstDiv_sun4 .Btn1_sun4, .MstDiv_sun4 .Btn1Mni_sun4, .MstDiv_sun4 .Btn2_sun4, .MstDiv_sun4 .Btn2Mni_sun4,
-.mastheadButton_4_sun4 a:link, .mastheadButton_4_sun4 a:visited {
+}/*.MstDiv_sun4 .Btn1_sun4,*/ .MstDiv_sun4 .Btn1Mni_sun4, .MstDiv_sun4 .Btn2_sun4, .MstDiv_sun4 .Btn2Mni_sun4,
+/* .mastheadButton_4_sun4 a:link, .mastheadButton_4_sun4 a:visited  */
+{
 	background:#18353d;
-        padding: 7px 15px 7px 15px;
-       -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-         border-radius: 3px;
-}.mastheadButton_4_sun4 a:link, .mastheadButton_4_sun4 a:visited, .mastheadButton_4_sun4 a:hover {
-	text-decoration:none;
+	padding: 7px 15px 7px 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
-.mastheadButton_4_sun4 a:hover,
+/* .mastheadButton_4_sun4 a:link, .mastheadButton_4_sun4 a:visited, .mastheadButton_4_sun4 a:hover {
+	text-decoration:none;
+} */
+/* .mastheadButton_4_sun4 a:hover, */
 .MstDiv_sun4 .Btn1Hov_sun4, .MstDiv_sun4 .Btn1MniHov_sun4, .MstDiv_sun4 .Btn2Hov_sun4, .MstDiv_sun4 .Btn2MniHov_sun4 {
 	background:#f89d1f;
 }
@@ -762,15 +767,15 @@ a.MstUsrLnk_sun4:link, a.MstUsrLnk_sun4:visited, a.MstAlmLnk_sun4:link, a.MstAlm
 .MstTblEnd_sun4 {
 	background-color:#325764;
 }
-.MstTblBot_sun4 .hrule_sun4{
+/* .MstTblBot_sun4 .hrule_sun4{
 	border-top-color:#144353;
 	background-color:#3c5f6b;
-}	
+}	 */
 
-.MstDiv_sun4 {
+/* .MstDiv_sun4 {
 	background:#325764 url(../images/masthead/masthead-background.jpg) top left repeat-x;
 	border-color:#000000;
-}
+} */
 .MstSec_sun4 {
 	background:#325764 url(../images/masthead/sec-masthead-background.jpg) top left repeat-x;
 	border-color:#000000;
@@ -1104,3 +1109,66 @@ a.WizStpLnk_sun4:hover {
 	text-decoration:underline;
 }
 /*---*/
+
+
+
+
+/* Header background. */
+.yui-layout-unit,
+.yui-skin-sam .yui-layout .yui-layout-unit-top div.yui-layout-bd {
+	background: #002C3E !important;
+}
+.yui-skin-sam .yui-layout .yui-layout-unit div.yui-layout-bd-nohd {
+	border: none !important;
+}
+.MstTblEnd_sun4 {
+	background: transparent;
+}
+
+
+/* Home page buttons. */
+input[type="submit"],
+a.TskScnTxtBg_sun4:not([onclick*=".payara."]) {
+	background: #1A4151;
+	color: #fff;
+	display: inline-block;
+	padding: 12px 15px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+}
+input[type="submit"]:hover,
+a.TskScnTxtBg_sun4:not([onclick*=".payara."]):hover {
+	background: #315462;
+}
+
+/* Home page links */
+input[name*="helpLink"][onclick*="return false"],
+.commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."],
+.mastheadButton_4_sun4 a {
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	padding: 12px 15px;
+	border-radius: 3px;
+	border: none;
+	text-decoration: underline;
+}
+input[name*="helpLink"][onclick*="return false"]:hover,
+.commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."]:hover,
+.mastheadButton_4_sun4 a:hover {
+	text-decoration: none;
+}
+
+/* Save buttons. */
+input[id*="saveButton"] {
+	background: #F0981B;
+}
+input[id*="saveButton"]:hover {
+	background: #F1A232;
+}
+
+/* Buttons in tables */
+table.Tbl_sun4 input[type="submit"] {
+	padding: 4px 10px;
+}
