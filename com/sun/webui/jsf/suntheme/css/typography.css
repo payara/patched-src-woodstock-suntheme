@@ -223,7 +223,9 @@ table.EdtLstTbl_sun4 td.EdtLstAddLblTd_sun4 span.LblLev2Txt_sun4 {
 .Tab1Div_sun4, .Tab2Div_sun4, .Tab3Div_sun4, .MniTabDiv_sun4, .TabGrpBox_sun4 {
 	font-size:1.0em;
 }
-.Tab1Div_sun4, .Tab2Div_sun4, .Tab3Div_sun4, .MniTabDiv_sun4 {
+/* .Tab1Div_sun4,  */
+/* .Tab2Div_sun4,  */
+.Tab3Div_sun4, .MniTabDiv_sun4 {
 	font-weight:bold;
 }
 /*---*/
@@ -278,7 +280,7 @@ a.MstPrgLnk_sun4, a.MstAlmLnk_sun4 {
 .TblHdrTxt_sun4, .TblMultHdrTxt_sun4, .TblGrpTxt_sun4 {
 	font-weight:bold;
 }
-table.Tbl_sun4 th {font-weight:normal}
+/* table.Tbl_sun4 th {font-weight:normal;} */
 table.Tbl_sun4 th.TblMultColHdr_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblMultColHdr_sun4 a.TblHdrLnk_sun4:visited {font-weight:normal;}
 table.Tbl_sun4 th.TblMultColHdr_sun4 .TblHdrTxt_sun4 {font-weight:normal;}
 table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {font-weight:normal;}
