@@ -494,9 +494,9 @@ body.HlpBdy_sun4 h2, body.HlpBdy_sun4 h3, body.HlpBdy_sun4 h4, body.HlpBdy_sun4 
 .LblRqdDiv_sun4 {
 	line-height:1.0em;
 }
-.ConFldSetDiv_sun4 {
+/* .ConFldSetDiv_sun4 {
 	margin:7px 10px 0px;
-}
+} */
 .ConFldSetLgdDiv_sun4 {
 	margin-bottom:10px;
 	line-height:1.1em;
@@ -549,9 +549,9 @@ div.ConTblCl2Div_sun4 .CbSpn_sun4 input[type=checkbox] {
 }
 /*---*/
 /* CONTENTPAGETITLE [originalName: PAGE TITLE]*/
-.TtlTxtDiv_sun4 {
+/* .TtlTxtDiv_sun4 {
 	margin:12px 0px 0px 10px;
-} 
+}  */
 .TtlTxtDiv_sun4 img {
 	vertical-align:text-bottom;
 	margin-right:5px;
@@ -563,9 +563,9 @@ div.ConTblCl2Div_sun4 .CbSpn_sun4 input[type=checkbox] {
 .TtlActDiv_sun4, .TtlVewDiv_sun4  {
 	margin:8px 10px 0px 10px;
 }
-.TtlHlpDiv_sun4 {
+/* .TtlHlpDiv_sun4 {
 	margin:5px 10px 0px 10px;
-}
+} */
 .TtlBtnDiv_sun4 {
 	margin:0px 8px 0px 10px;
 }
@@ -1126,13 +1126,13 @@ table.MniTabTbl_sun4 td.MniTabTblSelTd_sun4 {
 
 /*---*/
 /* TABLE [originalName: ACTION TABLE] */
-table.Tbl_sun4 {
+/* table.Tbl_sun4 {
 	border-style:solid;
 	border-width:1px;
 	padding:6px;
 	width:100%;
 	empty-cells:show;
-}
+} */
 /* table.Tbl_sun4 td, table.Tbl_sun4 th {
 	border-right:none;
 	border-top:none;
@@ -1178,7 +1178,8 @@ table.Tbl_sun4 th.TblColHdrSrtSel_sun4 a.TblHdrImgLnk_sun4:link, th.TblColHdrSrt
 table.Tbl_sun4 th.TblColHdrSrtSel_sun4 a.TblHdrImgLnk_sun4:hover {width:21px;}
 table.Tbl_sun4 th.TblColHdrSrtSel_sun4 a.TblHdrLnk_sun4:link, th.TblColHdrSrtSel_sun4 a.TblHdrLnk_sun4:visited {display:block;padding:3px 0px 2px;}
 /* Selection Column - Cells */
-table.Tbl_sun4 td.TblTdSel_sun4, table.Tbl_sun4 td.TblTdSrtSel_sun4 {text-align:center;vertical-align:middle;padding:0px 3px;}
+/* table.Tbl_sun4 td.TblTdSel_sun4,  */
+table.Tbl_sun4 td.TblTdSrtSel_sun4 {text-align:center;vertical-align:middle;padding:0px 3px;}
 /* Regular Column Headers */
 /* table.Tbl_sun4 th.TblColHdr_sun4 {border-top-width:1px;border-top-style:solid;border-left-width:1px;border-left-style:solid;border-bottom-width:1px;border-bottom-style:solid;vertical-align:bottom;padding:0;} */
 table.Tbl_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 a.TblHdrImgLnk_sun4:visited {border-left-width:1px; border-left-style:solid;}
@@ -1659,6 +1660,10 @@ table.Tbl_sun4 input[type="submit"] {
 .Tab2Div_sun4 {
 	padding: 10px 20px 0 20px;
 }
+.Tab1Div_sun4 tr,
+.Tab2Div_sun4 tr {
+	display: flex;
+}
 .Tab1Div_sun4 td a,
 .Tab2Div_sun4 td a {
 	display: block;
@@ -1666,12 +1671,23 @@ table.Tbl_sun4 input[type="submit"] {
 	padding: 12px 15px;
 	margin-right: 2px;
 	border-radius: 3px 3px 0 0;
+	text-decoration: none;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
 }
 .Tab1Div_sun4 .Tab1SelTxtNew_sun4,
 .Tab2Div_sun4 .Tab2SelTxt_sun4 {
 	border-radius: 3px 3px 0 0;
 	padding: 12px 15px;
 	margin-right: 2px;
+	text-align: center;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
 }
 .Tab1Div_sun4 td.Tab1TblSelTd_sun4 a,
 .Tab2Div_sun4 td.Tab2TblSelTd_sun4 a {
@@ -1690,8 +1706,8 @@ table.Tbl_sun4 caption.TblTtlTxt_sun4 {
 table.Tbl_sun4 {
 	width: auto;
 	min-width: 50%;
-	margin-left: 20px;
-	margin-right: 20px;
+/* 	margin-left: 20px; */
+/* 	margin-right: 20px; */
 }
 
 table.Tbl_sun4 .TblActTd_sun4 img[src*="separator.gif"] {
@@ -1720,7 +1736,8 @@ table.Tbl_sun4 tr:last-child th,
 table.Tbl_sun4 tr:last-child td {
 	border-bottom: none;
 }
-table.Tbl_sun4 td.TblTdLyt_sun4 img:first-child:last-child {
+table.Tbl_sun4 td.TblTdLyt_sun4 img:first-child:last-child,
+table.Tbl_sun4 td.TblTdSel_sun4 input:first-child:last-child {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -1729,6 +1746,12 @@ table.Tbl_sun4 td.TblTdLyt_sun4 img:first-child:last-child {
 
 
 /* FORM TABLES */
+table.Tbl_sun4,
+.ConFldSet_sun4 {
+/* 	margin-left: 20px; */
+/* 	margin-right: 20px; */
+	margin: 0 20px 20px 20px;
+}
 .ConFldSet_sun4 td {
 	padding: 10px 20px;
 	border-bottom-style: solid;
@@ -1739,4 +1762,31 @@ table.Tbl_sun4 td.TblTdLyt_sun4 img:first-child:last-child {
 }
 .inlineFieldHelp_sun4 {
 	padding-top: 10px;
+}
+
+
+
+/* PAGE TEXT */
+div[style*="padding: 10pt"] {
+	padding: 0 !important;
+}
+.TtlTxtDiv_sun4 {
+	margin: 40px 20px 20px 20px;
+}
+.TtlHlpDiv_sun4 {
+	margin: 0 20px 20px 20px;
+}
+.ConFldSetDiv_sun4 {
+/* 	margin: 0 20px 20px 20px; */
+}
+.PrpSht_sun4 img[src*="dot.gif"] {
+	display: none;
+}
+
+/* Bit hacky, targeting the rows on buttons in content. */
+div[id$=":propertyContentPage"],
+span[id$=":topButtons"] {
+/* 	background: #00f; */
+	display: block;
+	margin: 0 20px 20px 20px;
 }

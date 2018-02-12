@@ -24,8 +24,8 @@
 
 /* CSS Document */
 
-body {
-	color:#000;}
+/* body {
+	color:#000;} */
 
 /* a:link, a:visited {
 	color:#003399;
@@ -570,9 +570,9 @@ a.JmpTopLnk_sun4:hover {
 .TtlLin_sun4 {
 	background-color:#81939B;
 }
-span.TtlTxt_sun4, h1.TtlTxt_sun4 {
+/* span.TtlTxt_sun4, h1.TtlTxt_sun4 {
 	color:#000;
-}
+} */
 .TtlVewLbl_sun4 {
 	color:#5F6466;
 }
@@ -1125,6 +1125,9 @@ a.WizStpLnk_sun4:hover {
 
 
 
+body {
+	color: #fff;
+}
 a:link, 
 a:visited {
 	color:#0c0;
@@ -1133,6 +1136,24 @@ a:visited {
 a:hover {
 	color:#090;
 	text-decoration: none;
+}
+
+#gfLayoutCenter {
+	background: #002C3E;
+
+	/* IE 10+ */
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px);
+	/* Firefox */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px);
+	/* Opera */
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px);
+	/* Safari */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0.2)), color-stop(150px, #002C3E));
+	/* Chrome */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px);
+
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, #002C3E 150px);
+
 }
 
 
@@ -1166,6 +1187,9 @@ input[name*="helpLink"][onclick*="return false"],
 .commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."],
 .mastheadButton_4_sun4 a {
 	color: #fff;
+}
+input[name*="helpLink"]:hover {
+	background: none;
 }
 
 /* Save buttons. */
@@ -1206,10 +1230,15 @@ table.Tbl_sun4 input[type="submit"] {
 }
 .Tab1Div_sun4 .Tab1SelTxtNew_sun4,
 .Tab2Div_sun4 .Tab2SelTxt_sun4 {
-	background: #002C3E;
+/* 	background: #002C3E; */
+	background: #0c2633;
 	color: #fff;
 }
-.Tab1Div_sun4 .Tab1SelTxtNew_sun4.TabPad_sun4 {
+/* Massively hacky - so that we highlight the top level nav correctly. */
+.Tab1Div_sun4 .Tab1SelTxtNew_sun4[title$=": Monitor"],
+.Tab1Div_sun4 .Tab1SelTxtNew_sun4[title$=": Properties"],
+.Tab1Div_sun4 .Tab1SelTxtNew_sun4[title$=": Batch"],
+.Tab1Div_sun4 .Tab1SelTxtNew_sun4[title$=": Notification"] {
 	background: #335462;
 }
 

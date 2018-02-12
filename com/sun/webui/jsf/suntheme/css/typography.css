@@ -206,10 +206,10 @@ table.EdtLstTbl_sun4 td.EdtLstAddLblTd_sun4 span.LblLev2Txt_sun4 {
 .TtlVewLbl_sun4 {
 	font-weight:bold;
 }
-.TtlTxt_sun4 {
+/* .TtlTxt_sun4 {
 	font-size:1.5em;
 	font-weight:bold;
-}
+} */
 /*---*/
 
 /* TEXTAREA*/
@@ -370,3 +370,14 @@ a.TreeSelLink_sun4:hover {
 	font-size:1.4em;
 }
 /*---*/
+
+
+
+
+
+
+
+.TtlTxt_sun4 {
+	font-size: 21px;
+	font-weight: bold;
+}
