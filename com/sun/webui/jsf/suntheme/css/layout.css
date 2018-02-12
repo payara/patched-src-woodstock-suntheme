@@ -385,10 +385,10 @@ body.HlpBdy_sun4 h2, body.HlpBdy_sun4 h3, body.HlpBdy_sun4 h4, body.HlpBdy_sun4 
 }
 /*---*/
 /* INLINE ALERT */
-.inlineAlert_4_sun4 {
+/* .inlineAlert_4_sun4 {
 	margin:0 20px 0 20px;
 	text-align:center;
-}
+} */
 .inlineAlert_4_sun4 table {
 	display: inline;	
 }
@@ -400,18 +400,18 @@ body.HlpBdy_sun4 h2, body.HlpBdy_sun4 h3, body.HlpBdy_sun4 h4, body.HlpBdy_sun4 
 	height:8px;
 }
 .inlineAlert_4_sun4 .leftMiddle_sun4 {
-	width:7px;
+	width: 7px;
 	vertical-align:top;
 	border-left-style:solid;
 	border-left-width:1px;
 } 
-.inlineAlert_4_sun4 .middle_sun4 {
+/* .inlineAlert_4_sun4 .middle_sun4 {
 	padding:0 13px;
-}
-.inlineAlert_4_sun4 .middle_sun4 .header_sun4{
+} */
+/* .inlineAlert_4_sun4 .middle_sun4 .header_sun4{
 	vertical-align:middle;
 	text-align:center;
-}
+} */
 .inlineAlert_4_sun4 .middle_sun4 .header_sun4 img{
 	vertical-align:middle;
 	padding:0 4px 0 0;
@@ -419,11 +419,11 @@ body.HlpBdy_sun4 h2, body.HlpBdy_sun4 h3, body.HlpBdy_sun4 h4, body.HlpBdy_sun4 
 .inlineAlert_4_sun4 .middle_sun4  .header_sun4 .label_sun4{
 	vertical-align:middle;
 }
-.inlineAlert_4_sun4 .middle_sun4 .details_sun4 {
+/* .inlineAlert_4_sun4 .middle_sun4 .details_sun4 {
 	margin:7px 0 0 0;
 	vertical-align:middle;
 	text-align:center;
-}
+} */
 .inlineAlert_4_sun4 .middle_sun4 .details_sun4 img{
 	padding:0 1px 0 10px;
 }
@@ -1574,7 +1574,10 @@ table.TblLt_sun4 td.TblPnlTd_sun4 {padding-left:10px;border-top:none;border-bott
 
 
 
-
+/* Fix occasional double spacing. */
+br + br {
+	display: none;
+}
 
 
 /* Header buttons. */
@@ -1615,6 +1618,10 @@ div.MstDivTtl_sun4 {
 }
 
 
+/* Home background - the grey is hardcoded so remove it. */
+.guiPageContent div[style*="background-color:#B6C6D6;"] {
+	background: transparent !important;
+}
 
 /* Home page buttons. */
 input[type="submit"],
@@ -1771,10 +1778,12 @@ div[style*="padding: 10pt"] {
 	padding: 0 !important;
 }
 .TtlTxtDiv_sun4 {
-	margin: 40px 20px 20px 20px;
+/* 	margin: 40px 20px 20px 20px; */
+	margin: 40px 0 20px 0;
 }
 .TtlHlpDiv_sun4 {
-	margin: 0 20px 20px 20px;
+/* 	margin: 0 20px 20px 20px; */
+	margin: 0 0 20px 0;
 }
 .ConFldSetDiv_sun4 {
 /* 	margin: 0 20px 20px 20px; */
@@ -1785,8 +1794,27 @@ div[style*="padding: 10pt"] {
 
 /* Bit hacky, targeting the rows on buttons in content. */
 div[id$=":propertyContentPage"],
+div[id$=":SysPropsPage"], 
 span[id$=":topButtons"] {
 /* 	background: #00f; */
 	display: block;
 	margin: 0 20px 20px 20px;
+/* 	margin: 0 0 20px 0; */
+}
+/* span[id$=":topButtons"] { */
+/* 	margin: 0 20px 20px 20px; */
+/* } */
+
+
+
+/* INLINE ALERT */
+.inlineAlert_4_sun4 {
+	margin: 20px 20px 0 20px;
+	text-align: center;
+}
+.inlineAlert_4_sun4 .middle_sun4 .details_sun4 {
+	margin-top: 10px;
+}
+.inlineAlert_4_sun4 .middle_sun4 {
+/* 	padding:0 13px; */
 }
