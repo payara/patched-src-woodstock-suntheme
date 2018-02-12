@@ -297,8 +297,8 @@
 
 /* Home page button left margins. */
 .commonTaskGroup_4_sun4 .left_sun4 {
-	background: red;
-	/* display: none; */
+/* 	background: red; */
+	display: none;
 }
 
 

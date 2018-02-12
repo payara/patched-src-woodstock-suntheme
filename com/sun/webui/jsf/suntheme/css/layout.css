@@ -392,19 +392,19 @@ body.HlpBdy_sun4 h2, body.HlpBdy_sun4 h3, body.HlpBdy_sun4 h4, body.HlpBdy_sun4 
 .inlineAlert_4_sun4 table {
 	display: inline;	
 }
-.inlineAlert_4_sun4 .topLeftCorner_sun4, .inlineAlert_4_sun4 .topRightCorner_sun4, .inlineAlert_4_sun4 .bottomLeftCorner_sun4, .inlineAlert_4_sun4 .bottomRightCorner_sun4 {
+/* .inlineAlert_4_sun4 .topLeftCorner_sun4, .inlineAlert_4_sun4 .topRightCorner_sun4, .inlineAlert_4_sun4 .bottomLeftCorner_sun4, .inlineAlert_4_sun4 .bottomRightCorner_sun4 {
 	width:8px;
 	height:8px;
-}
-.inlineAlert_4_sun4 .topMiddle_sun4 {
+} */
+/* .inlineAlert_4_sun4 .topMiddle_sun4 {
 	height:8px;
-}
-.inlineAlert_4_sun4 .leftMiddle_sun4 {
+} */
+/* .inlineAlert_4_sun4 .leftMiddle_sun4 {
 	width: 7px;
 	vertical-align:top;
 	border-left-style:solid;
 	border-left-width:1px;
-} 
+}  */
 /* .inlineAlert_4_sun4 .middle_sun4 {
 	padding:0 13px;
 } */
@@ -427,17 +427,17 @@ body.HlpBdy_sun4 h2, body.HlpBdy_sun4 h3, body.HlpBdy_sun4 h4, body.HlpBdy_sun4 
 .inlineAlert_4_sun4 .middle_sun4 .details_sun4 img{
 	padding:0 1px 0 10px;
 }
-.inlineAlert_4_sun4 .rightMiddle_sun4 {
+/* .inlineAlert_4_sun4 .rightMiddle_sun4 {
 	width:7px;
 	vertical-align:top;
 	border-right-style:solid;
 	border-right-width:1px;
-}
-.inlineAlert_4_sun4 .bottomMiddle_sun4 {
+} */
+/* .inlineAlert_4_sun4 .bottomMiddle_sun4 {
 	height:7px;
 	border-bottom-style:solid;
 	border-bottom-width:1px;
-}
+} */
 /*---*/
 /* LEFT PANE HELP */
 .LftHlpHlp_sun4 {
@@ -1795,12 +1795,7 @@ div[style*="padding: 10pt"] {
 /* Bit hacky, targeting the rows on buttons in content. */
 div[id$=":propertyContentPage"],
 div[id$=":SysPropsPage"], 
-span[id$=":topButtons"] {
-/* 	background: #00f; */
-	display: block;
-	margin: 0 20px 20px 20px;
-/* 	margin: 0 0 20px 0; */
-}
+span[id$=":topButtons"] {/* 	background: #00f; */display: block;margin: 0 20px 20px 20px;/* 	margin: 0 0 20px 0; */}
 /* span[id$=":topButtons"] { */
 /* 	margin: 0 20px 20px 20px; */
 /* } */
@@ -1809,12 +1804,16 @@ span[id$=":topButtons"] {
 
 /* INLINE ALERT */
 .inlineAlert_4_sun4 {
-	margin: 20px 20px 0 20px;
+	margin: 40px 20px 0 20px;
 	text-align: center;
 }
 .inlineAlert_4_sun4 .middle_sun4 .details_sun4 {
 	margin-top: 10px;
 }
-.inlineAlert_4_sun4 .middle_sun4 {
-/* 	padding:0 13px; */
+.inlineAlert_4_sun4 .topLeftCorner_sun4, 
+.inlineAlert_4_sun4 .topRightCorner_sun4, 
+.inlineAlert_4_sun4 .bottomLeftCorner_sun4, 
+.inlineAlert_4_sun4 .bottomRightCorner_sun4 {
+	width: 20px;
+	height: 20px;
 }

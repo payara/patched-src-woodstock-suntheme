@@ -1194,11 +1194,17 @@ input[name*="helpLink"]:hover {
 }
 
 /* Save buttons. */
-input[id*="saveButton"] {
+input[id*="saveButton"],
+input[id*="newButton"] {
 	background: #F0981B;
 }
-input[id*="saveButton"]:hover {
+input[id*="saveButton"]:hover, 
+input[id*="newButton"]:hover {
 	background: #F1A232;
+}
+
+input[type="submit"] ~ input[type="submit"] {
+	margin-left: 10px;
 }
 
 /* Buttons in tables */
@@ -1290,7 +1296,6 @@ table.Tbl_sun4 th {
 
 
 /* INLINE ALERT */
-.inlineAlert_4_sun4 .middle_sun4,
 .inlineAlert_4_sun4 td {
-	background: red;
+	background: #ff4b00;
 }
