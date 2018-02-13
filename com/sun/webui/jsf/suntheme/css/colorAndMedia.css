@@ -1039,7 +1039,7 @@ table.TblLt_sun4 .TblColFtrSpc_sun4 {border-bottom-color:#a8b2b6; border-top-col
 	color:#000;
 }
 .Tree_sun4 {
-	background-color:#fff;
+	/* background-color:#fff; */
 }
 a.TreeLink_sun4:link, a.TreeLink_sun4:visited {
 	color:#003399;
@@ -1065,19 +1065,20 @@ a.TreeSelLink_sun4:hover {
 	color:#000;
 	text-decoration:underline;
 }
-.TreeRootRow_sun4, .TreeRootRowHeader_sun4 {
+/* .TreeRootRow_sun4,  */
+/* .TreeRootRowHeader_sun4 {
 	background-color:#dbdada;
-}
+} */
 .TreeSelRow_sun4, .TreeRootSelRow  {
 	background-color:#90b7d0;
 }
 .TreeSelText_sun4 {
 	color:#000;
 }
-.TreeContent_sun4 a:link, .TreeContent_sun4 a:visited {
+/* .TreeContent_sun4 a:link, .TreeContent_sun4 a:visited {
 	color:#000;
 	text-decoration:none;
-}
+} */
 /*---*/
 
 /* VERSION DIALOG */
@@ -1140,7 +1141,20 @@ a:hover {
 
 .yui-skin-sam .yui-layout .yui-layout-unit-center div.yui-layout-bd {
 	background: #002C3E !important;
+
+	/* IE 10+ */
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px) !important;
+	/* Firefox */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px) !important;
+	/* Opera */
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px) !important;
+	/* Safari */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0,0,0,0.2)), color-stop(150px, #002C3E)) !important;
+	/* Chrome */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px) !important;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, #002C3E 150px) !important;
 }
+/* may not need this */
 #gfLayoutCenter {
 	background: #002C3E;
 
@@ -1298,4 +1312,14 @@ table.Tbl_sun4 th {
 /* INLINE ALERT */
 .inlineAlert_4_sun4 td {
 	background: #ff4b00;
+}
+
+
+
+/* Sidebar */
+.TreeContent_sun4 a {
+	color: red;
+	/* 	text-decoration: none; */
+	/* display: inline-block; */
+	/* width: 100%; */
 }

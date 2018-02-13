@@ -566,9 +566,9 @@ div.ConTblCl2Div_sun4 .CbSpn_sun4 input[type=checkbox] {
 /* .TtlHlpDiv_sun4 {
 	margin:5px 10px 0px 10px;
 } */
-.TtlBtnDiv_sun4 {
+/* .TtlBtnDiv_sun4 {
 	margin:0px 8px 0px 10px;
-}
+} */
 .TtlBtnBtmDiv_sun4 {
 	padding:10px 8px 0px 10px;
 }
@@ -1363,37 +1363,38 @@ table.TblLt_sun4 td.TblPnlTd_sun4 {padding-left:10px;border-top:none;border-bott
 	padding-bottom:1px;
 }
 
-.TreeImgHeight_sun4 {
-	display:inline;	
+/* .TreeImgHeight_sun4 {
+	display:inline;
 	line-height:22px;
-}
+} */
 
-.TreeContent_sun4 {
-	display:inline;	
-	vertical-align:middle;	
+/* .TreeContent_sun4 {
+	display:inline;
+	vertical-align:middle;
 	padding-left:5px;
 	white-space:nowrap;
-}
+} */
 
 .TreeLinkSpace_sun4 {
 	margin-left:3px;
 }
 
-.TreeRootRow_sun4, .TreeRootSelRow_sun4 {
+/* .TreeRootRow_sun4,  */
+.TreeRootSelRow_sun4 {
 	height:28px;
 }
 
-.TreeRootRowHeader_sun4 {
-	height:9px;}
+/* .TreeRootRowHeader_sun4 {
+	height:9px;} */
 
 .TreeRow_sun4 {
 	white-space:nowrap;
 	clear:both;
 }
 
-.TreeRow_sun4 .float_sun4 {
+/* .TreeRow_sun4 .float_sun4 {
 	padding-left:5px;
-}
+} */
 
 .TreeRootRow_sun4 .float_sun4, .TreeRootSelRow_sun4 .float_sun4 {	padding-left:7px;
 
@@ -1659,6 +1660,10 @@ table.Tbl_sun4 input[type="submit"] {
 	padding: 4px 10px;
 }
 
+.TtlBtnDiv_sun4 {
+	margin: 0 20px 0 0;
+}
+
 
 
 
@@ -1795,7 +1800,13 @@ div[style*="padding: 10pt"] {
 /* Bit hacky, targeting the rows on buttons in content. */
 div[id$=":propertyContentPage"],
 div[id$=":SysPropsPage"], 
-span[id$=":topButtons"] {/* 	background: #00f; */display: block;margin: 0 20px 20px 20px;/* 	margin: 0 0 20px 0; */}
+div[id$=":resourcesPageTitle"],
+span[id$=":topButtons"] {
+	/* 	background: #00f; */
+	display: block;
+	margin: 0 0 20px 20px;
+	/* 	margin: 0 0 20px 0; */
+}
 /* span[id$=":topButtons"] { */
 /* 	margin: 0 20px 20px 20px; */
 /* } */
@@ -1816,4 +1827,60 @@ span[id$=":topButtons"] {/* 	background: #00f; */display: block;margin: 0 20px 2
 .inlineAlert_4_sun4 .bottomRightCorner_sun4 {
 	width: 20px;
 	height: 20px;
+}
+
+
+
+/* Sidebar */
+.TreeRootRow_sun4 > .float_sun4 {
+	min-height: 22px;
+}
+.TreeContent_sun4 {
+	display: block;
+	padding-left: 5px;
+	white-space: nowrap;
+}
+.TreeRootRow_sun4 .float_sun4 a {
+	padding-right: 5px;
+	display: inline-block;
+	margin-top: 3px;
+}
+.TreeRow_sun4 .float_sun4 {
+	padding-left: 5px;
+}
+.TreeRow_sun4 .float_sun4 > img,
+.TreeSelRow_sun4 .float_sun4 > img {
+	vertical-align: middle;
+}
+.TreeRow_sun4 .float_sun4 a,
+.TreeSelRow_sun4 .float_sun4 a {
+	display: inline-block;
+	vertical-align: middle;
+}
+.TreeRow_sun4 .float_sun4 a:last-child,
+.TreeSelRow_sun4 .float_sun4 a:last-child {
+	padding-right: 5px;
+}
+.TreeContent_sun4 a:link, 
+.TreeContent_sun4 a:visited, 
+.TreeContent_sun4 a:hover {
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	line-height: 22px;
+}
+/* .TreeRow_sun4x a {
+	background: #0f0;
+	line-height: 26px;
+	min-height: 26px;
+} */
+/* .TreeImgHeight_sun4 { */
+/* 	background: #0f0; */
+/* 	line-height: 22px; */
+/* } */
+.TreeRootRowHeader_sun4 {
+	height: 10px;
+}
+body .yui-layout-hd h2 {
+/* 	display: none; */
 }
