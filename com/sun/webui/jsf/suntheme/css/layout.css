@@ -1831,7 +1831,13 @@ span[id$=":topButtons"] {
 
 
 
-/* Sidebar */
+/* SIDEBAR */
+.TreeRow_sun4 {
+	overflow: hidden;
+}
+.TreeRow_sun4:hover {
+	cursor: pointer;
+}
 .TreeRootRow_sun4 > .float_sun4 {
 	min-height: 22px;
 }
@@ -1839,6 +1845,7 @@ span[id$=":topButtons"] {
 	display: block;
 	padding-left: 5px;
 	white-space: nowrap;
+	overflow: hidden;
 }
 .TreeRootRow_sun4 .float_sun4 a {
 	padding-right: 5px;
@@ -1851,6 +1858,8 @@ span[id$=":topButtons"] {
 .TreeRow_sun4 .float_sun4 > img,
 .TreeSelRow_sun4 .float_sun4 > img {
 	vertical-align: middle;
+/* 	border: red 1px solid; */
+	height: 26px;
 }
 .TreeRow_sun4 .float_sun4 a,
 .TreeSelRow_sun4 .float_sun4 a {
@@ -1867,20 +1876,38 @@ span[id$=":topButtons"] {
 	text-decoration: none;
 	display: inline-block;
 	width: 100%;
-	line-height: 22px;
-}
-/* .TreeRow_sun4x a {
-	background: #0f0;
 	line-height: 26px;
-	min-height: 26px;
-} */
-/* .TreeImgHeight_sun4 { */
-/* 	background: #0f0; */
-/* 	line-height: 22px; */
-/* } */
+}
 .TreeRootRowHeader_sun4 {
 	height: 10px;
 }
+.yui-skin-sam body.yui-layout .yui-layout-hd {
+/* 	width: 250px !important; */
+	border: none;
+}
+.yui-skin-sam body.yui-layout .yui-layout-clip {
+	border: none;
+}
 body .yui-layout-hd h2 {
-/* 	display: none; */
+	display: none;
+}
+.yui-skin-sam .yui-layout .yui-layout-unit.yui-layout-unit-left div.yui-layout-bd {
+/* 	width: 250px !important; */
+	background: transparent;
+	border: none;
+	top: 10px !important;
+}
+.yui-skin-sam body.yui-layout .yui-layout-unit div.yui-layout-hd .collapse,
+.yui-skin-sam body.yui-layout .yui-layout-clip .collapse {
+	width: 26px;
+	height: 26px;
+	border: none;
+	border-radius: 3px;
+	right: 10px;
+	top: 10px;
+	z-index: 1;
+}
+.yui-skin-sam body.yui-layout .yui-layout-clip .collapse {
+	right: 0;
+	border-radius: 0 3px 3px 0
 }

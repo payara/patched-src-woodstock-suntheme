@@ -1069,7 +1069,8 @@ a.TreeSelLink_sun4:hover {
 /* .TreeRootRowHeader_sun4 {
 	background-color:#dbdada;
 } */
-.TreeSelRow_sun4, .TreeRootSelRow  {
+/* .TreeSelRow_sun4,  */
+.TreeRootSelRow  {
 	background-color:#90b7d0;
 }
 .TreeSelText_sun4 {
@@ -1316,10 +1317,205 @@ table.Tbl_sun4 th {
 
 
 
-/* Sidebar */
+/* SIDEBAR */
+.yui-skin-sam body.yui-layout {
+	background: #002C3E;
+}
+.yui-skin-sam .yui-layout .yui-layout-unit.yui-layout-unit-left {
+	background: rgba(0,0,0,0.18) !important;
+}
+.yui-skin-sam body.yui-layout .yui-layout-clip {
+	background: rgba(0,0,0,0.18) !important;
+	width: 25px !important;
+}
+
+.yui-skin-sam body.yui-layout .yui-layout-unit div.yui-layout-hd .collapse,
+.yui-skin-sam body.yui-layout .yui-layout-clip .collapse {
+	background-color: #000;
+	background-color: rgba(255,255,255,0.15);
+}
 .TreeContent_sun4 a {
-	color: red;
-	/* 	text-decoration: none; */
-	/* display: inline-block; */
-	/* width: 100%; */
+	color: #fff;
+}
+/* .TreeRow_sun4:hover .TreeContent_sun4, */
+.TreeRow_sun4:hover {
+	background: #000;
+	background: rgba(255,255,255,0.1);
+}
+.TreeSelRow_sun4 {
+	background: #F0981B;
+}
+
+
+
+/* ICONS */
+img[src$="common_tasks.gif"],
+img[src$="domain.gif"],
+img[src$="hazelcast.png"],
+img[src$="instance.gif"],
+img[src$="monitor.gif"],
+img[src$="node.gif"],
+img[src$="lifecycle.gif"],
+img[src$="application.gif"],
+img[src$="nodes.gif"],
+img[src$="resources.gif"],
+img[src$="notification.png"],
+img[src$="requestTracing.png"],
+img[src$="dg.png"],
+img[src$="cluster.gif"],
+img[src$="tree_folder.gif"],
+img[src$="connector.png"],
+img[src$="configurations.gif"],
+img[src$="JDBC.gif"],
+img[src$="canister.gif"],
+img[src$="healthcheck.png"],
+img[src$="availabilityservice.gif"],
+img[src$="system_properties.png"],
+img[src$="jms.gif"],
+img[src$="jvm.gif"],
+img[src$="logger.gif"],
+img[src$="security.gif"],
+img[src$="javaMailSession.gif"],
+img[src$="support.png"],
+img[src$="httpservice.gif"],
+img[src$="http.gif"],
+img[src$="container.gif"],
+img[src$="threadPool.gif"],
+img[src$="transactionService.gif"],
+img[src$="orb.gif"],
+img[src$="batch.png"],
+img[src$="jndi.gif"] {
+	width: 16px;
+	height: 16px;
+	padding-left: 16px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img[src$="common_tasks.gif"] {
+	background: url(../images/icons/common_tasks.png) no-repeat left top;
+}
+img[src$="domain.gif"] {
+	background: url(../images/icons/domain.png) no-repeat left top;
+}
+img[src$="hazelcast.png"] {
+	background: url(../images/icons/hazelcast.png) no-repeat left top;
+}
+img[src$="instance.gif"] {
+	background: url(../images/icons/instance.png) no-repeat left top;
+}
+img[src$="monitor.gif"] {
+	background: url(../images/icons/monitor.png) no-repeat left top;
+}
+img[src$="node.gif"] {
+	background: url(../images/icons/node.png) no-repeat left top;
+}
+img[src$="lifecycle.gif"] {
+	background: url(../images/icons/lifecycle.png) no-repeat left top;
+}
+img[src$="application.gif"] {
+	background: url(../images/icons/application.png) no-repeat left top;
+}
+img[src$="nodes.gif"] {
+	background: url(../images/icons/nodes.png) no-repeat left top;
+}
+img[src$="resources.gif"] {
+	background: url(../images/icons/resources.png) no-repeat left top;
+}
+img[src$="notification.png"] {
+	background: url(../images/icons/notification.png) no-repeat left top;
+}
+img[src$="requestTracing.png"] {
+	background: url(../images/icons/request_tracing.png) no-repeat left top;
+}
+img[src$="dg.png"],
+img[src$="cluster.gif"] {
+	background: url(../images/icons/deployment_groups.png) no-repeat left top;
+}
+img[src$="tree_folder.gif"] {
+	background: url(../images/icons/tree_folder.png) no-repeat left top;
+}
+img[src$="connector.png"] {
+	background: url(../images/icons/connector.png) no-repeat left top;
+}
+img[src$="configurations.gif"] {
+	background: url(../images/icons/configurations.png) no-repeat left top;
+}
+img[src$="JDBC.gif"],
+img[src$="canister.gif"] {
+	background: url(../images/icons/jdbc.png) no-repeat left top;
+}
+img[src$="healthcheck.png"] {
+	background: url(../images/icons/healthcheck.png) no-repeat left top;
+}
+img[src$="availabilityservice.gif"] {
+	background: url(../images/icons/availabilityservice.png) no-repeat left top;
+}
+img[src$="system_properties.png"] {
+	background: url(../images/icons/system_properties.png) no-repeat left top;
+}
+img[src$="jms.gif"] {
+	background: url(../images/icons/jms.png) no-repeat left top;
+}
+img[src$="jvm.gif"] {
+	background: url(../images/icons/jvm.png) no-repeat left top;
+}
+img[src$="logger.gif"] {
+	background: url(../images/icons/logger.png) no-repeat left top;
+}
+img[src$="security.gif"] {
+	background: url(../images/icons/security.png) no-repeat left top;
+}
+img[src$="javaMailSession.gif"] {
+	background: url(../images/icons/java_mail_session.png) no-repeat left top;
+}
+img[src$="support.png"] {
+	background: url(../images/icons/support.png) no-repeat left top;
+}
+img[src$="httpservice.gif"] {
+	background: url(../images/icons/http_service.png) no-repeat left top;
+}
+img[src$="http.gif"] {
+	background: url(../images/icons/http.png) no-repeat left top;
+}
+img[src$="container.gif"] {
+	background: url(../images/icons/container.png) no-repeat left top;
+}
+img[src$="threadPool.gif"] {
+	background: url(../images/icons/thread_pool.png) no-repeat left top;
+}
+img[src$="transactionService.gif"] {
+	background: url(../images/icons/transaction_service.png) no-repeat left top;
+}
+img[src$="orb.gif"] {
+	background: url(../images/icons/orb.png) no-repeat left top;
+}
+img[src$="batch.png"] {
+	background: url(../images/icons/batch.png) no-repeat left top;
+}
+img[src$="jndi.gif"] {
+	background: url(../images/icons/jndi.png) no-repeat left top;
+}
+
+
+
+/* EXTERNAL LINKS */
+a[onclick*="window.open"],
+input[onclick*="launchHelp"] {
+	padding-right: 12px !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFCNDg1QjE5MEU2MDExRTg5OEM3RTMxMTRGN0Y1ODkwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFCNDg1QjFBMEU2MDExRTg5OEM3RTMxMTRGN0Y1ODkwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUI0ODVCMTcwRTYwMTFFODk4QzdFMzExNEY3RjU4OTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUI0ODVCMTgwRTYwMTFFODk4QzdFMzExNEY3RjU4OTAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz56fCeyAAAAPklEQVR42oyMAQoAIAwCLfZwf24QDaRWdCBzcAhJKEIZeIQu7bhAl6oF5l9JLswETtq6yt7xwZcUNn1lCDAA3ySbd50fZ18AAAAASUVORK5CYII=) !important;
+	background-repeat: no-repeat !important;
+	background-position: right 0 !important;
+}
+.MstTblTop_sun4 .mastheadButton_4_sun4 a[onclick*="window.open"],
+.MstTblTop_sun4 input[name*="helpLink"],
+.commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."] {
+	background-position: right 10px !important;
+}
+
+
+.yui-skin-sam body.yui-layout .yui-layout-unit-left div.yui-layout-hd .collapse {
+	background: rgba(255,255,255,0.15) url(../images/commontaskssection/sidebar_close.png) no-repeat 7px 8px;
+}
+.yui-skin-sam body.yui-layout .yui-layout-clip-left .collapse {
+	background: rgba(255,255,255,0.15) url(../images/commontaskssection/sidebar_open.png) no-repeat 9px 8px;
 }
