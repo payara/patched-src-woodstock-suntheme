@@ -176,8 +176,7 @@
 
 /* COLOR AND MEDIA */
 .commonTaskbgColor_sun4 {
-        background-color:#546f78;
-	
+	background-color:#546f78;
 }
 /*.commonTaskSection_4_sun4 .TskScnTpBx_sun4 {
 	background:url(../images/commontaskssection/s-curve.gif) bottom left repeat-x;
@@ -203,7 +202,7 @@
 /* } */
 .commonTask_4_sun4 .background_sun4 {
 	/*background: #9AB2BF url(../images/commontaskssection/gradation-grey.gif) right top repeat-x;*/
-        width:100%;
+	width:100%;
 }
 /* .commonTask_4_sun4 a.TskScnTxtBg_sun4 { */
 	/*border-left-color:#AABCC8;*/
@@ -274,11 +273,13 @@
 .commonTask_4_sun4 .infoPanel_sun4 .header_sun4, .commonTaskSection_4_sun4 .help_sun4 {
 	font-size:1.2em;
 }
-.commonTask_4_sun4 .TskScnTskPdng_sun4, .commonTask_4_sun4 .infoPanel_sun4 .content_sun4,.commonTask_4_sun4 .infoPanel_sun4 .more_sun4 a:link,
+/* .commonTask_4_sun4 .TskScnTskPdng_sun4, .commonTask_4_sun4 .infoPanel_sun4 .content_sun4,.commonTask_4_sun4 .infoPanel_sun4 .more_sun4 a:link,
 .commonTask_4_sun4 .infoPanel_sun4 .more_sun4 a:visited, .commonTask_4_sun4 .infoPanel_sun4 .more_sun4 a:hover {
 	font-size: 1.1em;
-} 
-.commonTaskSection_4_sun4 .header_sun4, .commonTaskGroup_4_sun4 .header_sun4, .commonTask_4_sun4 .infoPanel_sun4 .header_sun4 {
+}  */
+.commonTaskSection_4_sun4 .header_sun4, 
+.commonTaskGroup_4_sun4 .header_sun4, 
+.commonTask_4_sun4 .infoPanel_sun4 .header_sun4 {
 	font-weight: bold;
 }
 
@@ -321,6 +322,7 @@ body .modalTop {
     border-bottom: none;
     background: #0D3647;
 }
-body .modalTop a, body .modalTop a:visited {
-    color: #ff0;
+body .modalTop a, 
+body .modalTop a:visited {
+    color: #fff;
 }

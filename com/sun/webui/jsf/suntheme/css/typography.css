@@ -55,7 +55,9 @@ strong {
 }
 
 /* ADDREMOVE [originalName: ADD-REMOVE-IDIOM]*/
-.AddRmvLbl_sun4, .AddRmvLbl2_sun4 {
+.AddRmvLbl_sun4, 
+/* .AddRmvLbl2_sun4  */
+{
 	font-size:1.0em;
 	font-weight:bold;
 }
@@ -125,7 +127,8 @@ body.HlpBdy_sun4 h5, H6 {
 /*---*/
 
 /* HELPINLINE [originalName: INLINE HELP] */
-.inlineFieldHelp_sun4, a.HlpFldLnk_sun4 {
+/* .inlineFieldHelp_sun4,  */
+a.HlpFldLnk_sun4 {
 	font-size:1.0em;
 }
 /*---*/
@@ -139,13 +142,18 @@ table.EdtLstTbl_sun4 td.EdtLstAddLblTd_sun4 span.LblLev2Txt_sun4 {
 /*---*/
 /* LABEL [originalName: GENERIC FIELD LABELS]*/
 
-.LblLev2Txt_sun4, .LblLev2smTxt_sun4, .LblRqdDiv_sun4, .LblLev3Txt_sun4, .LblLev3TxtDis_sun4 {
+/* .LblLev2Txt_sun4,  */
+.LblLev2smTxt_sun4, 
+/* .LblRqdDiv_sun4,  */
+.LblLev3Txt_sun4, .LblLev3TxtDis_sun4 {
 	font-size:1.0em;
 }
 .LblLev1Txt_sun4 {
 	font-size:1.3em;
 }
-.LblLev1Txt_sun4, .LblLev2Txt_sun4, .LblLev2smTxt_sun4,
+.LblLev1Txt_sun4, 
+.LblLev2Txt_sun4, 
+.LblLev2smTxt_sun4,
 .LblLev1TxtDis_sun4, .LblLev2TxtDis_sun4, .LblLev2smTxtDis_sun4, .LblLev3Txt_sun4, .LblLev3TxtDis_sun4 {
 	font-weight:bold;
 }
@@ -158,7 +166,7 @@ table.EdtLstTbl_sun4 td.EdtLstAddLblTd_sun4 span.LblLev2Txt_sun4 {
 /*---*/
 
 /* LISTS */
-.LstOptSel_sun4, 
+/* .LstOptSel_sun4,  */
 .LstOptSep_sun4, 
 .LstOptGrp_sun4, 
 .LstDis_sun4 .LstOptGrp_sun4 {
@@ -339,13 +347,13 @@ a.TreeSelLink_sun4:hover {
 /*---*/
 
 /* VERSION DIALOG */
-.VrsHdrTxt_sun4 {
+/* .VrsHdrTxt_sun4 {
 	font-size:1.3em;
 	font-weight:bold;
 } 
 .VrsTxt_sun4 {
 	font-size:1.1em;
-} 
+}  */
 /*---*/
 
 /* WIZARD */
@@ -379,5 +387,14 @@ a.TreeSelLink_sun4:hover {
 
 .TtlTxt_sun4 {
 	font-size: 21px;
+	font-weight: bold;
+}
+
+/* ABOUT PAGE */
+.VrsBdy_sun4 {
+	font-size: 13px;
+}
+.VrsHdrTxt_sun4 {
+	font-size: 15px;
 	font-weight: bold;
 }
