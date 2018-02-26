@@ -2060,3 +2060,11 @@ input[style="margin-left: 8pt"] {
 	padding-top: 20px;
 	text-align: right;
 }
+.VrsPrdDiv_sun4 img {
+	width: 324px;
+	height: 42px;
+	padding-left: 324px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../images/commontaskssection/payara_logo_about.png) no-repeat left top;
+}
