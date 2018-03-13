@@ -345,17 +345,17 @@ body.HlpBdy_sun4 {
 /*---*/
 
 /* HELPINLINE [originalName: INLINE HELP]*/
-.inlinePageHelp_sun4 {
+/* .inlinePageHelp_sun4 {
 	color:#707277;
-}
- .inlinePageHelp_sun4 a, a.HlpPgeLnk_sun4:link, a.HlpPgeLnk_sun4:visited, a.HlpFldLnk_sun4:link, a.HlpFldLnk_sun4:visited {
+} */
+/*  .inlinePageHelp_sun4 a, a.HlpPgeLnk_sun4:link, a.HlpPgeLnk_sun4:visited, a.HlpFldLnk_sun4:link, a.HlpFldLnk_sun4:visited {
 	color:#003399;
 	text-decoration:none;
 }
 .inlinePageHelp_sun4 a:hover, a.HlpPgeLnk_sun4:hover, a.HlpFldLnk_sun4:hover {
 	color:#003399;
 	text-decoration:underline;
-}
+} */
 /*---*/
 
 /* CHECKBOXES AND RADIO BUTTONS */
@@ -1016,6 +1016,7 @@ input[id*="newButton"],
 input[id*="uploadButton"],
 input[id*="okButton"] {
 	background: #F0981B;
+	color: #002C3E;
 }
 input[id*="saveButton"]:hover, 
 input[id*="newButton"]:hover, 
@@ -1027,6 +1028,7 @@ input[id*="okButton"]:hover {
 /* Buttons in tables */
 table.Tbl_sun4 input[type="submit"] {
 	background: #315462;
+	color: #fff;
 }
 table.Tbl_sun4 input[type="submit"]:disabled {
 	font-style: italic;
@@ -1049,10 +1051,11 @@ a > img + span {
 .Tab2Div_sun4 td a {
 	background: #000;
 	background: rgba(255,255,255,0.20);
-	color: #fff;
+	color: #002C3E;
 }
 .Tab2Div_sun4 td a {
 	background: rgba(255,255,255,0.15);
+	color: #fff;
 }
 .Tab1Div_sun4 td a:hover {
 	background: rgba(255,255,255,0.30);
@@ -1089,7 +1092,7 @@ table.Tbl_sun4 {
 /* Caption */
 table.Tbl_sun4 caption.TblTtlTxt_sun4 {
 	background: #F0981B;
-	color: #fff;
+	color: #002C3E;
 }
 
 table.Tbl_sun4 th.TblColHdr_sun4 {
@@ -1188,6 +1191,9 @@ table.Tbl_sun4 a.TblHdrImgLnk_sun4:hover {
 }
 .TreeSelRow_sun4 {
 	background: #F0981B;
+}
+.TreeSelRow_sun4 a {
+	color: #002C3E;
 }
 
 

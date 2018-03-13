@@ -1671,7 +1671,8 @@ select[multiple="multiple"] + span[id$="select"] {
 }
 input[type="submit"] ~ input[type="submit"],
 input[type="submit"] ~ select,
-input + input {
+input + input,
+.RbSpn_sun4 + select {
 	margin-left: 10px;
 }
 input[style^="margin-left: 17pt"] {
