@@ -20,7 +20,7 @@
  * Copyright 2007 Sun Microsystems, Inc. All rights reserved.
  */
 
- /* Portions Copyright [2016] [C2B2 Consulting Limited] */
+ /*  Portions Copyright [2016-2018] [Payara Foundation and/or its affiliates] */
 
 /* CSS Document */
 
@@ -72,7 +72,7 @@ a.BcmLnk_sun4:hover {
 }
 
 .Btn1Hov_sun4, .Btn1MniHov_sun4 {
-	background:#f89d1f
+	background:#f89d1f;
 	border-top-color:#6D8197;
 	border-right-color:#475D75;
 	border-bottom-color:#273E5A;
@@ -701,15 +701,14 @@ table.Tbl_sun4 a.TblHdrImgLnk_sun4:hover {background-repeat:repeat-x;background-
 
 /* Current Sort Column */
 table.Tbl_sun4 th.TblColHdrSrt_sun4 {
-	border-color:#81939B;
-	background:#f8f8f9  url(../images/table/column_hdr_sort_gradient.gif) left bottom repeat-x; 	
+	/*border-color:#81939B;
+	background:#f8f8f9  url(../images/table/column_hdr_sort_gradient.gif) left bottom repeat-x; */	
 }
-table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {color:#000000;text-decoration:none;}
-table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {color:#336699;border-left-color:#C7C8CA;text-decoration:none;}
+table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {text-decoration:none;}
+table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {/* color:#336699; *//*border-left-color:#C7C8CA;*/text-decoration:none;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:hover {
-	color:#000000;
-	text-decoration:underline;
-	background-color:#f8f8f9;
+	color:#eeeeee;
+	text-decoration:none;
 	background-image:url(../images/table/column_hdr_sort_hov_gradient.gif);
 	background-position:left bottom;
 	background-repeat:repeat-x;
@@ -739,7 +738,7 @@ table.Tbl_sun4 span.TblColHdrSelDis_sun4 {
 }
 table.Tbl_sun4 th.TblColHdrSrt_sun4 table.TblHdrTbl_sun4 {background:none;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {background:none;}
-table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {background:none;border-left-color:#C7C8CA;}
+table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {background:none;/*border-left-color:#C7C8CA;*/}
 /* Multi-Column Headers */ 
 table.Tbl_sun4 th.TblMultColHdr_sun4 {border-left-color:#81939B;border-bottom-color:#81939B;background-color:#fff;}
 .TblMultHdrTxt_sun4 {color:#000000;}
@@ -752,7 +751,7 @@ table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrLnk_sun4:hover {background-color
 table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {background:none;color:#336699;text-decoration:none;border-left-color:#C7C8CA;}
 table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrImgLnk_sun4:hover {background-color:#f8f8f9;color:#003399; background-image:url(../images/table/column_hdr_sort_hov_gradient.gif);}
 /* Sorted Cells */
-table.Tbl_sun4 .TblTdSrt_sun4 {background-color:#e5e9ed;}
+table.Tbl_sun4 .TblTdSrt_sun4 {/*background-color:#e5e9ed;*/}
 table.Tbl_sun4 .TblColFtrSpc_sun4 {border-bottom-color:#CAD0D2;border-top-color:#E5E9ED;background-color:#fff;} 
 /* Spacer Colums */
 table.Tbl_sun4 th.TblTdSpc_sun4 {border-color:#81939B;;background-color:#fff;}
@@ -840,7 +839,7 @@ table.TblLt_sun4 .TblHdrTxt_sun4 {background-color:#f8f8f9;color:#000000;text-de
 /* Current Sort Column */
 table.TblLt_sun4 th.TblColHdrSrt_sun4 {border-top-color:#81939B;border-left-color:#81939B;border-bottom-color:#81939B;background-color:#f8f8f9; background-image:url(../images/table/lite_column_hdr_sort_gradient.gif)}
 table.TblLt_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:hover {background-color:#f1f3f7; color:#000000;text-decoration:underline; background-image:url(../images/table/lite_column_hdr_sort_hov_gradient.gif);}
-table.TblLt_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {border-left-color:#C7C8CA; color:#336699; text-decoration:none;}
+table.TblLt_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {/*border-left-color:#C7C8CA;*/ color:#f0981b; text-decoration:none;}
 table.TblLt_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:hover {background-color:#f1f3f7; color:#003399; background-image:url(../images/table/lite_column_hdr_sort_hov_gradient.gif);}
 /* Multi-Column Headers */
 table.TblLt_sun4 th.TblMultColHdr_sun4 {border-left-color:#81939B;border-bottom-color:#81939B;background-color:#E6EBEF;}
@@ -959,8 +958,8 @@ a:hover {
 }
 /* may not need this */
 #gfLayoutCenter {
-	background: #002C3E;
-
+	background: #002C3E;      
+        min-width: 845px;
 	/* IE 10+ */
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px);
 	/* Firefox */
@@ -1426,7 +1425,6 @@ select[multiple="multiple"] {
 	background: rgba(255,255,255,0.1);
 }
 
-}
 .TxtFldDis_sun4 {
 	color: rgba(255,255,255,0.25);
 }
@@ -1435,8 +1433,6 @@ select[multiple="multiple"] {
 .LblRqdDiv_sun4 {
 	color: rgba(255,255,255,0.5);
 }
-
-
 
 #zendeskFrame html {
 	background: red;

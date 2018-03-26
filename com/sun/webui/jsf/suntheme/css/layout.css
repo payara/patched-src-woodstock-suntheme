@@ -20,7 +20,7 @@
  * Copyright 2007 Sun Microsystems, Inc. All rights reserved.
  */
 
- /* Portions Copyright [2016] [C2B2 Consulting Limited] */
+ /*  Portions Copyright [2016-2018] [Payara Foundation and/or its affiliates] */
 
 /* CSS Document */
 
@@ -86,6 +86,9 @@ body {
 }
 .AddRmvHrzDiv_sun4 {
 	margin:5px 7px 10px 0px; 
+}
+.AddRmvHrzDiv_sun4 .Lst_sun4{
+	min-width:195px;
 }
 .AddRmvVrtDiv_sun4 {
 	clear:left;
@@ -935,16 +938,18 @@ table.Tbl_sun4 th.TblColHdrSrtSel_sun4 a.TblHdrLnk_sun4:link, th.TblColHdrSrtSel
 table.Tbl_sun4 td.TblTdSrtSel_sun4 {text-align:center;vertical-align:middle;padding:0px 3px;}
 table.TblHdrTbl_sun4 {width:100%;border:0;height:1.7em;}
 table.TblHdrTbl_sun4 td, table.TblHdrTbl_sun4 th {border:0;padding:0;vertical-align:bottom;width:100%;}
-table.Tbl_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 a.TblHdrLnk_sun4:visited {display:block;padding:3px 0 3px 5px;}
+table.Tbl_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 a.TblHdrLnk_sun4:visited {display:block;padding:3px 0 3px 5px;text-decoration: none;}
+table.Tbl_sun4 a.TblHdrLnk_sun4:link:hover, table.Tbl_sun4 a.TblHdrLnk_sun4:visited:hover {text-decoration: none;}
+
 /* Current Sort Column */
 table.Tbl_sun4 th.TblColHdrSrt_sun4 {border-top-width:1px; border-top-style:solid;border-left-width:1px; border-left-style:solid; border-bottom-width:1px; border-bottom-style:solid;}
-table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {border-left-width:1px; border-left-style:solid;}
+table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {/*border-left-width:1px; border-left-style:solid;*/}
 table.Tbl_sun4 span.TblColHdrSrtDis_sun4 {border-left-width:1px; border-left-style:solid;}
 table.Tbl_sun4 span.TblColHdrSelDis_sun4 {border-left-width:1px; border-left-style:solid;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 {vertical-align:bottom;padding:0px;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 table.TblHdrTbl_sun4 {width:100%;border:none;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {display:block;padding:4px 5px 3px 5px;}
-table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {display:block;border-left-style:solid;border-left-width:1px;padding-bottom:1px;width:21px;}
+table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {display:block;/*border-left-style:solid;border-left-width:1px;*/padding-bottom:1px;width:21px;}
 table.Tbl_sun4 .TblHdrSrtNum_sun4 {margin-left:-1px;width:21px;}
 table.Tbl_sun4 span.TblColHdrSrtDis_sun4 {display:block;text-align:left;padding:0px 2px 0px 0px;}
 table.Tbl_sun4 span.TblColHdrSrtDis_sun4 img, span.TblColHdrSelDis_sun4 img {padding-right:2px;}
@@ -1070,7 +1075,7 @@ table.TblLt_sun4 a.TblHdrImgLnk_sun4:link, table.TblLt_sun4 a.TblHdrImgLnk_sun4:
 table.TblLt_sun4 span.TblColHdrSelDis_sun4 {border-left-width:1px; border-left-style:solid;}
 /* Current Sort Column */
 table.TblLt_sun4 th.TblColHdrSrt_sun4 {border-top-width:1px; border-top-style:solid;border-left-width:1px; border-left-style:solid;border-bottom-width:1px; border-bottom-style:solid;}
-table.TblLt_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {border-left-width:1px; border-left-style:solid;}
+table.TblLt_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {/*border-left-width:1px; border-left-style:solid;*/}
 /* Multi-Column Headers */
 table.TblLt_sun4 th.TblMultColHdr_sun4 {border-top:none;border-left-width:1px; border-left-style:solid;border-bottom-width:1px; border-bottom-style:solid;padding:0px;margin:0px;vertical-align:bottom;}
 table.TblLt_sun4 th.TblMultHdr_sun4 {border-bottom:none;border-top-width:1px; border-top-style:solid;border-left-width:1px; border-left-style:solid;text-align:center;padding:4px 5px;}
