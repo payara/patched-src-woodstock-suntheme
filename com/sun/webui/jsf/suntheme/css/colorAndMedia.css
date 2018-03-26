@@ -72,7 +72,7 @@ a.BcmLnk_sun4:hover {
 }
 
 .Btn1Hov_sun4, .Btn1MniHov_sun4 {
-	background:#f89d1f
+	background:#f89d1f;
 	border-top-color:#6D8197;
 	border-right-color:#475D75;
 	border-bottom-color:#273E5A;
@@ -705,7 +705,7 @@ table.Tbl_sun4 th.TblColHdrSrt_sun4 {
 	background:#f8f8f9  url(../images/table/column_hdr_sort_gradient.gif) left bottom repeat-x; */	
 }
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {text-decoration:none;}
-table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {color:#336699;/*border-left-color:#C7C8CA;*/text-decoration:none;}
+table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {/* color:#336699; *//*border-left-color:#C7C8CA;*/text-decoration:none;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:hover {
 	color:#eeeeee;
 	text-decoration:none;
