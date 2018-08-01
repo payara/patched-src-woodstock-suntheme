@@ -1296,8 +1296,9 @@ div.MstDivTtl_sun4 {
 }
 
 
-/* Home background - the grey is hardcoded so remove it. */
-.guiPageContent div[style*="background-color:#B6C6D6;"] {
+/* Home background - the grey is hardcoded so remove it. Second line is for IE, weirdly the inlined colour is set differently. */
+.guiPageContent div[style*="background-color:#B6C6D6;"],
+.guiPageContent div[style*="background-color: rgb(182, 198, 214)"] {
 	background: transparent !important;
 }
 

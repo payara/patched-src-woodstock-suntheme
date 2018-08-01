@@ -1474,3 +1474,20 @@ img[src$='login-product_name_open.png'] {
 	display: block;
 	margin: 0 auto;
 }
+
+
+
+
+
+
+/* Overwriting CSS from css_ns6up.css. */
+body .AlrtTbl {
+	border: none;
+}
+body .AlrtErrTxt,
+body .AlrtMsgTxt {
+	color: #fff;
+}
+body .AlrtTbl#error {
+	background: rgba(214,60,0,0.75) !important;
+}
