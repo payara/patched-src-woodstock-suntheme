@@ -919,8 +919,8 @@ a.WizStpLnk_sun4:hover {
 
 
 body {
-    background: #002C3E;
-    color: #fff;
+	background: #002C3E !important;
+	color: #fff;
 }
 a:link, 
 a:visited {
@@ -1003,9 +1003,10 @@ input[name*="helpLink"]:hover {
 input[id*="saveButton"],
 input[id*="newButton"], 
 input[id*="uploadButton"],
-input[id*="okButton"] {
-    background: #F0981B;
-    color: #002C3E;
+input[id*="okButton"],
+form[name='loginform'] input[type='submit'] {
+	background: #F0981B;
+	color: #002C3E;
 }
 input[id*="saveButton"]:hover, 
 input[id*="newButton"]:hover, 
@@ -1409,4 +1410,53 @@ select[multiple="multiple"] {
 
 #zendeskFrame html {
     background: red;
+
+
+body.LogBdy {
+	background: #002332 !important;
+}
+body.LogBdy .plugincontent > div {
+    background: transparent url(/resource/images/backimage.jpg) !important;
+}
+body.LogBdy .plugincontent > div > div {
+	margin-left: 0 !important;
+	width: auto !important;
+	text-align: center;
+}
+form[name='loginform'] {
+	display: inline-block;
+}
+form[name='loginform'] tr td {
+	padding: 10px 0 10px 20px;
+	text-align: left;
+}
+form[name='loginform'] tr > td:first-child {
+	padding-left: 0;
+}
+form[name='loginform'] tr td[colspan='2'] {
+	text-align: center;
+}
+
+img[src$='login-product_name_open.png'] {
+	background: url(../images/other/login-product_name_open.png) no-repeat left top;
+	width: 200px;
+	height: 63px;
+	padding-left: 200px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Overwriting CSS from css_ns6up.css. */
+body .AlrtTbl {
+	border: none;
+}
+body .AlrtErrTxt,
+body .AlrtMsgTxt {
+	color: #fff;
+}
+body .AlrtTbl#error {
+	background: rgba(214,60,0,0.75) !important;
 }

@@ -1290,10 +1290,10 @@ div.MstDivTtl_sun4 {
     background: url(../images/commontaskssection/payara_logo.png) no-repeat left top;
 }
 
-
-/* Home background - the grey is hardcoded so remove it. */
-.guiPageContent div[style*="background-color:#B6C6D6;"] {
-    background: transparent !important;
+/* Home background - the grey is hardcoded so remove it. Second line is for IE, weirdly the inlined colour is set differently. */
+.guiPageContent div[style*="background-color:#B6C6D6;"],
+.guiPageContent div[style*="background-color: rgb(182, 198, 214)"] {
+	background: transparent !important;
 }
 
 /* Home page buttons. */
@@ -1694,10 +1694,11 @@ input[style="margin-left: 8pt"] {
     text-align: right;
 }
 .VrsPrdDiv_sun4 img {
-    width: 324px;
-    height: 42px;
-    padding-left: 324px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(../images/commontaskssection/payara_logo_about.png) no-repeat left top;
+	width: 324px;
+	height: 42px;
+	padding-left: 324px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../images/commontaskssection/payara_logo_about.png) no-repeat left top;
 }
+
