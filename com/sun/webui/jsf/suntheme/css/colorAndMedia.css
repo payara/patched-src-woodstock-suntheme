@@ -3,12 +3,12 @@
  * of the Common Development and Distribution License
  * (the License).  You may not use this file except in
  * compliance with the License.
- * 
+ *
  * You can obtain a copy of the license at
  * https://woodstock.dev.java.net/public/CDDLv1.0.html.
  * See the License for the specific language governing
  * permissions and limitations under the License.
- * 
+ *
  * When distributing Covered Code, include this CDDL
  * Header Notice in each file and include the License file
  * at https://woodstock.dev.java.net/public/CDDLv1.0.html.
@@ -16,7 +16,7 @@
  * with the fields enclosed by brackets [] replaced by
  * you own identifying information:
  * "Portions Copyrighted [year] [name of copyright owner]"
- * 
+ *
  * Copyright 2007 Sun Microsystems, Inc. All rights reserved.
  */
 
@@ -366,7 +366,7 @@ body.HlpBdy_sun4 {
 
 /* LABEL [originalName: GENERIC FIELD LABELS]*/
 
-.LblLev1Txt_sun4, 
+.LblLev1Txt_sun4,
 .LblLev2smTxt_sun4 .LblLev3Txt_sun4 {
 	color:#000000;
 }
@@ -403,7 +403,7 @@ body.HlpBdy_sun4 {
 .LstDis_sun4, .LstMnoDis_sun4 {
 	background:#EAEDF0 url(../images/field/bg_gradient_disabled.gif) repeat-x top;
 }
-.LstOpt_sun4, 
+.LstOpt_sun4,
 .LstOptGrp_sun4, .LstMno_sun4, .LstMno_sun4 .LstOptGrp_sun4 {
 	color:#333;
 }
@@ -488,7 +488,7 @@ a.JmpTopLnk_sun4:hover {
 /* TABSET [originalName: LEVEL TABS]*/
 .Tab1Div_sun4 .Tab1TblSpcTd_sun4 {
 	background:#E5E9ED url(../images/tabs/background_border_bottom.gif) left bottom repeat-x;
-} 
+}
 
 .Tab1Tbl2New_sun4 .Tab1SelTxtLeft_sun4 {
 	background-image:url(../images/tabs/level1_selected-left.jpg);
@@ -584,7 +584,7 @@ table.MniTabTbl_sun4 td.MniTabTblSelTd_sun4 {
 	background:#A0BBD8 url(../images/field/bg_gradient_selected.gif) repeat-x top;
 }
 
-.TxtFldDis_sun4, 
+.TxtFldDis_sun4,
 .TxtAraDis_sun4 {
 	border-top-color:#9D9FA1;
 	border-right-color:#AEAFB0;
@@ -702,7 +702,7 @@ table.Tbl_sun4 a.TblHdrImgLnk_sun4:hover {background-repeat:repeat-x;background-
 /* Current Sort Column */
 table.Tbl_sun4 th.TblColHdrSrt_sun4 {
 	/*border-color:#81939B;
-	background:#f8f8f9  url(../images/table/column_hdr_sort_gradient.gif) left bottom repeat-x; */	
+	background:#f8f8f9  url(../images/table/column_hdr_sort_gradient.gif) left bottom repeat-x; */
 }
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {text-decoration:none;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {/* color:#336699; *//*border-left-color:#C7C8CA;*/text-decoration:none;}
@@ -739,7 +739,7 @@ table.Tbl_sun4 span.TblColHdrSelDis_sun4 {
 table.Tbl_sun4 th.TblColHdrSrt_sun4 table.TblHdrTbl_sun4 {background:none;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrLnk_sun4:visited {background:none;}
 table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4 th.TblColHdrSrt_sun4 a.TblHdrImgLnk_sun4:visited {background:none;/*border-left-color:#C7C8CA;*/}
-/* Multi-Column Headers */ 
+/* Multi-Column Headers */
 table.Tbl_sun4 th.TblMultColHdr_sun4 {border-left-color:#81939B;border-bottom-color:#81939B;background-color:#fff;}
 .TblMultHdrTxt_sun4 {color:#000000;}
 table.Tbl_sun4 th.TblMultHdr_sun4 {background-color:#fff;border-top-color:#81939B;border-left-color:#81939B;}
@@ -752,7 +752,7 @@ table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrImgLnk_sun4:link, table.Tbl_sun4
 table.Tbl_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrImgLnk_sun4:hover {background-color:#f8f8f9;color:#003399; background-image:url(../images/table/column_hdr_sort_hov_gradient.gif);}
 /* Sorted Cells */
 table.Tbl_sun4 .TblTdSrt_sun4 {/*background-color:#e5e9ed;*/}
-table.Tbl_sun4 .TblColFtrSpc_sun4 {border-bottom-color:#CAD0D2;border-top-color:#E5E9ED;background-color:#fff;} 
+table.Tbl_sun4 .TblColFtrSpc_sun4 {border-bottom-color:#CAD0D2;border-top-color:#E5E9ED;background-color:#fff;}
 /* Spacer Colums */
 table.Tbl_sun4 th.TblTdSpc_sun4 {border-color:#81939B;;background-color:#fff;}
 /* Alarm Cells */
@@ -762,17 +762,17 @@ table.Tbl_sun4 .TblGrpRow_sun4 {
 	border-left-color:#CAD0D2;
    	border-bottom-color:#CAD0D2;
    	border-top-color:#E5E9ED;
-	background:#fff url(../images/table/grouprow_gradient.gif) left bottom repeat-x; 
-}	
+	background:#fff url(../images/table/grouprow_gradient.gif) left bottom repeat-x;
+}
 .TblGrpTxt_sun4 {color:#000000;text-decoration:none;}
 .TblGrpTxt_sun4 {color:#000000;margin:0px 3px;}
 table.Tbl_sun4 .TblGrpMsgTxt_sun4 {color:#000000;}
 /* Table Footers */
 /* Table Column-level Footer */
-table.Tbl_sun4 .TblColFtr_sun4 {border-bottom-color:#CAD0D2;border-top-color:#E5E9ED;background-color:#fff;} 
+table.Tbl_sun4 .TblColFtr_sun4 {border-bottom-color:#CAD0D2;border-top-color:#E5E9ED;background-color:#fff;}
 table.Tbl_sun4 .TblColFtrSrt_sun4 {background-color:#e5e9ed;border-bottom-color:#CAD0D2;border-top-color:#E5E9ED;}
 .TblColFtrTxt_sun4 {color:#000000;}
-/* Table Overall Footer */ 
+/* Table Overall Footer */
 table.Tbl_sun4 td.TblFtrRow_sun4 {background-color:#E5E9ED;}
 table.Tbl_sun4 .TblFtrRowTxt_sun4 {color:#000000;}
 table.Tbl_sun4 .TblFtrLft_sun4 {color:#000000;}
@@ -797,7 +797,7 @@ table.Tbl_sun4 td.TblPnlTd_sun4 {background-color:#E5E9ED;}
 }
 .TblPnlBtnDiv_sun4 {
    border-top-color:#81939B;
-} 
+}
 .TblPnlTtl_sun4 {color:#000000;}
 .TblCstFltMnu_sun4 {background-color:#90B7D0;color:#003399;border-right-color:#AEAFB0;border-bottom-color:#B9B9BA;}
 table.Tbl_sun4 div.TblPnlDiv_sun4 td {background:transparent;}
@@ -808,7 +808,7 @@ table.Tbl_sun4 div.TblPnlDiv_sun4 td {background:transparent;}
    border-right-color:#9CB6C7;
    border-bottom-color:#CADDED;
    border-left-color:#9CB6C7;
-} 
+}
 /*---*/
 
 /* LIGHTWEIGHT TABLE DESIGN */
@@ -850,12 +850,12 @@ table.TblLt_sun4 th.TblMultColHdrSrt_sun4 a.TblHdrImgLnk_sun4:hover {background-
 table.TblLt_sun4 .TblGrpRow_sun4 {background-color:#FFFFFF;border-left-color:#CAD0D2;
    	border-bottom-color:#CAD0D2;
    	border-top-color:#E5E9ED;}
-/* Table Footers */ 
+/* Table Footers */
 table.TblLt_sun4 td.TblFtrRow_sun4 {background-color:#fff;}
 table.TblLt_sun4 .TblFtrRowTxt_sun4 {color:#5F6466;}
-table.TblLt_sun4 .TblColFtr_sun4 {border-bottom-color:#a8b2b6;border-top-color:#A9ADB5;background-color:#fff;} 
+table.TblLt_sun4 .TblColFtr_sun4 {border-bottom-color:#a8b2b6;border-top-color:#A9ADB5;background-color:#fff;}
 table.TblLt_sun4 .TblColFtrSrt_sun4 {background-color:#e5e9ed;border-bottom-color:#a8b2b6;border-top-color:#A9ADB5;}
-table.TblLt_sun4 .TblColFtrSpc_sun4 {border-bottom-color:#a8b2b6; border-top-color:#A9ADB5; background-color:#fff;} 
+table.TblLt_sun4 .TblColFtrSpc_sun4 {border-bottom-color:#a8b2b6; border-top-color:#A9ADB5; background-color:#fff;}
 /*---*/
 
 /* TREE */
@@ -931,7 +931,7 @@ body {
 	background: #002C3E !important;
 	color: #fff;
 }
-a:link, 
+a:link,
 a:visited {
 	color:#F0981B;
 	text-decoration: underline;
@@ -958,7 +958,7 @@ a:hover {
 }
 /* may not need this */
 #gfLayoutCenter {
-	background: #002C3E;      
+	background: #002C3E;
         min-width: 845px;
 	/* IE 10+ */
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%, #002C3E 150px);
@@ -1011,15 +1011,15 @@ input[name*="helpLink"]:hover {
 
 /* Save buttons. */
 input[id*="saveButton"],
-input[id*="newButton"], 
+input[id*="newButton"],
 input[id*="uploadButton"],
 input[id*="okButton"],
 form[name='loginform'] input[type='submit'] {
 	background: #F0981B;
 	color: #002C3E;
 }
-input[id*="saveButton"]:hover, 
-input[id*="newButton"]:hover, 
+input[id*="saveButton"]:hover,
+input[id*="newButton"]:hover,
 input[id*="uploadButton"]:hover,
 input[id*="okButton"]:hover {
 	background: #F1A232;
@@ -1113,7 +1113,7 @@ table.Tbl_sun4 th {
 	background: #000 !important;
 	background: rgba(255,255,255,0.03) !important;
 }
-table.Tbl_sun4 tr.TblSelRow_sun4 td, 
+table.Tbl_sun4 tr.TblSelRow_sun4 td,
 table.Tbl_sun4 tr.TblSelRow_sun4 th {
 	background-color: #474B33;
 }
@@ -1143,8 +1143,8 @@ table.Tbl_sun4 th.TblColHdr_sun4 table.TblHdrTbl_sun4 td:first-child {
 	color: #B3C0C5;
 }
 
-table.Tbl_sun4 a.TblHdrImgLnk_sun4:link, 
-table.Tbl_sun4 a.TblHdrImgLnk_sun4:visited, 
+table.Tbl_sun4 a.TblHdrImgLnk_sun4:link,
+table.Tbl_sun4 a.TblHdrImgLnk_sun4:visited,
 table.Tbl_sun4 a.TblHdrImgLnk_sun4:hover {
 	background: #000;
 	background: rgba(255,255,255,0.2);
@@ -1473,4 +1473,15 @@ img[src$='login-product_name_open.png'] {
 	box-sizing: border-box;
 	display: block;
 	margin: 0 auto;
+}
+
+/* MicroProfile Config Tabs */
+div[id*=microprofileConfigTabs] .Tab1Div_sun4 {
+      background:#335462;
+}
+
+a[id*=microProfileConfigPropertyTab],
+a[id*=microProfileConfigOrdinalTab],
+a[id*=microProfileConfigSecretsDirectoryTab] {
+	color:#ffffff !important;
 }
