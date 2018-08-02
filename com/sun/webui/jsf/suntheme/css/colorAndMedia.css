@@ -1437,8 +1437,6 @@ select[multiple="multiple"] {
 
 
 
-
-
 body.LogBdy {
 	background: #002332 !important;
 }
@@ -1477,9 +1475,6 @@ img[src$='login-product_name_open.png'] {
 
 
 
-
-
-
 /* Overwriting CSS from css_ns6up.css. */
 body .AlrtTbl {
 	border: none;
@@ -1490,4 +1485,17 @@ body .AlrtMsgTxt {
 }
 body .AlrtTbl#error {
 	background: rgba(214,60,0,0.75) !important;
+}
+
+
+
+/* MicroProfile Config Tabs */
+div[id*=microprofileConfigTabs] .Tab1Div_sun4 {
+      background:#335462;
+}
+
+a[id*=microProfileConfigPropertyTab],
+a[id*=microProfileConfigOrdinalTab],
+a[id*=microProfileConfigSecretsDirectoryTab] {
+	color:#ffffff !important;
 }
