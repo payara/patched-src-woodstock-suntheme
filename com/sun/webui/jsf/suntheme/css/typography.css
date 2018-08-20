@@ -19,6 +19,9 @@
  * 
  * Copyright 2007 Sun Microsystems, Inc. All rights reserved.
  */
+
+/*  Portions Copyright [2017-2018] [Payara Foundation and/or its affiliates] */
+
 /* CSS Document */
 
 body {
@@ -355,12 +358,6 @@ a.TreeSelLink_sun4:hover {
 	font-size:1.4em;
 }
 /*---*/
-
-
-
-
-
-
 
 .TtlTxt_sun4 {
 	font-size: 21px;
