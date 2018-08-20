@@ -1408,6 +1408,7 @@ select[multiple="multiple"] {
     color: rgba(255,255,255,0.5);
 }
 
+
 #zendeskFrame html {
     background: red;
 
@@ -1448,7 +1449,6 @@ img[src$='login-product_name_open.png'] {
 	margin: 0 auto;
 }
 
-
 /* Overwriting CSS from css_ns6up.css. */
 body .AlrtTbl {
 	border: none;
@@ -1459,4 +1459,17 @@ body .AlrtMsgTxt {
 }
 body .AlrtTbl#error {
 	background: rgba(214,60,0,0.75) !important;
+}
+
+
+
+/* MicroProfile Config Tabs */
+div[id*=microprofileConfigTabs] .Tab1Div_sun4 {
+      background:#335462;
+}
+
+a[id*=microProfileConfigPropertyTab],
+a[id*=microProfileConfigOrdinalTab],
+a[id*=microProfileConfigSecretsDirectoryTab] {
+	color:#ffffff !important;
 }
