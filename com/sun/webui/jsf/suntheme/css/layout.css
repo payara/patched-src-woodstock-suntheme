@@ -34,7 +34,7 @@ body {
     margin:0;
 }
 .hidden_sun4 {
-    display:none;
+    display:none !important;
 }
 
 .clear_sun4 {
