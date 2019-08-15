@@ -1282,12 +1282,10 @@ div.MstDivTtl_sun4 {
     margin-top: 15px;
 }
 .MstDivTtl_sun4 img {
-    width: 301px;
-    height: 35px;
-    padding-left: 301px;
+    width: 191px;
+    height: 91px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(../images/commontaskssection/payara_logo.png) no-repeat left top;
 }
 
 /* Home background - the grey is hardcoded so remove it. Second line is for IE, weirdly the inlined colour is set differently. */
