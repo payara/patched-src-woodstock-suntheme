@@ -932,6 +932,10 @@ a:hover {
     text-decoration: none;
 }
 
+.header_sun4 {
+    color: #fff;
+}
+
 .yui-skin-sam .yui-layout .yui-layout-unit-center div.yui-layout-bd {
     background: #002C3E !important;
 
