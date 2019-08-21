@@ -920,7 +920,7 @@ a.WizStpLnk_sun4:hover {
 
 body {
 	background: #002C3E !important;
-	color: #002C3E;
+	color: #fff;
 }
 a:link, 
 a:visited {
@@ -930,10 +930,6 @@ a:visited {
 a:hover {
     color:#F0981B;
     text-decoration: none;
-}
-
-.header_sun4 {
-    color: #fff;
 }
 
 .yui-skin-sam .yui-layout .yui-layout-unit-center div.yui-layout-bd {
