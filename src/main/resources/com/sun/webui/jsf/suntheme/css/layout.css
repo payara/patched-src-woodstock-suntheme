@@ -1282,8 +1282,8 @@ div.MstDivTtl_sun4 {
     margin-top: 15px;
 }
 .MstDivTtl_sun4 img {
-    width: 191px;
-    height: 116px;
+    max-width: 200px;
+    max-height: 150px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
