@@ -629,6 +629,9 @@ a.MstUsrLnk_sun4:link, a.MstUsrLnk_sun4:visited, a.MstAlmLnk_sun4:link, a.MstAlm
     background-color:#325764;
 }
 
+.MstTblTop_sun4,span#Masthead\:utilityBar {
+    background-color: #002332;
+}
 .MstTblEnd_sun4 {
     background-color:#325764;
 }
@@ -990,12 +993,7 @@ a.TskScnTxtBg_sun4:not([onclick*=".payara."]):hover {
 }
 
 /* Home page links */
-input[name*="helpLink"][onclick*="return false"],
-.commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."],
-.mastheadButton_4_sun4 a {
-    color: #fff;
-}
-input[name*="helpLink"]:hover {
+input[name*="utilityBar"]:hover {
     background: none;
 }
 
@@ -1334,10 +1332,13 @@ a[target="help_window"] {
     background-repeat: no-repeat !important;
     background-position: right 0 !important;
 }
+span#Masthead\:utilityBar input,
+span#Masthead\:utilityBar a,
 .MstTblTop_sun4 .mastheadButton_4_sun4 a[onclick*="window.open"],
-.MstTblTop_sun4 input[name*="helpLink"],
+.MstTblTop_sun4 input[name*="utilityBar"],
 .commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."] {
     background-position: right 10px !important;
+    color:#F0981B;
 }
 
 

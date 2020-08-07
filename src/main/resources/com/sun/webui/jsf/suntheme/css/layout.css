@@ -707,7 +707,9 @@ a.MstLnkLft_sun4:link, a.MstLnkLft_sun4:visited, a.MstLnkCen_sun4:link, a.MstLnk
 td.MstTdAlm_sun4 {
     vertical-align:top;
 }
+/* Hide the separator boxes */
 td.MstTdLogo_sun4 {
+    display: none;
     vertical-align:top;
     padding:6px 13px 8px 20px;
 }
@@ -732,6 +734,8 @@ td.MstTdLogo_sun4 {
 }
 div.MstDivUsr_sun4 {
     padding:4px 0 0 0;
+    display: flex;
+    align-items: center;
 }
 .MstLbl_sun4, .MstTxt_sun4, 
 .MstUsrLnk_sun4, .MstAlmLnk_sun4, 
@@ -760,6 +764,8 @@ a.MstLnk_sun4:hover,a.MstLnkLft_sun4:hover, a.MstLnkRt_sun4:hover, a.MstLnkCen_s
     border-style:solid;
     border-width:1px;
     min-width:600px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 .MstTblTop_sun4 .TxtFld_sun4, .MstTblTop_sun4 .MnuStd_sun4 {
     margin:0 6px 0 0;
@@ -772,8 +778,10 @@ a.MstLnk_sun4:hover,a.MstLnkLft_sun4:hover, a.MstLnkRt_sun4:hover, a.MstLnkCen_s
     background-repeat:repeat-x;
     background-position:left top;
 }
-.MstTblEnd_sun4  td {
+.MstTblEnd_sun4 tr > td {
     padding:1px 0 2px 0;
+    display: flex;
+    flex-direction: column;
 }
 td.MstTblEnd_sun4 {
     padding-left:10px;
@@ -1249,7 +1257,6 @@ select + br + br {
 .MstTblTop_sun4 {
     width: auto;
     float: right;
-    margin: 20px 10px;
 }
 .MstTblTop_sun4 td {
     vertical-align: top;
@@ -1258,7 +1265,7 @@ select + br + br {
     display: none;
 }
 .MstTblTop_sun4 .mastheadButton_4_sun4 a,
-.MstTblTop_sun4 input[name*="helpLink"][onclick*="return false"] {
+.MstTblTop_sun4 input[name*="utilityBar"][onclick*="return false"] {
     padding: 12px 0;
     margin-right: 30px;
 }
@@ -1266,10 +1273,12 @@ select + br + br {
 /* Header statuses */
 .MstTblBot_sun4 {
     width: auto;
-    margin: 30px 0 0 10px;
 }
 .MstTblBot_sun4 td {
-    vertical-align: top;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+    justify-content: space-between;
 }
 .MstTblBot_sun4 .MstDivUsr_sun4 img {
     display: none;
@@ -1278,9 +1287,6 @@ select + br + br {
     margin-right: 30px;
 }
 
-div.MstDivTtl_sun4 {
-    margin-top: 15px;
-}
 .MstDivTtl_sun4 img {
     max-width: 200px;
     max-height: 150px;
@@ -1307,10 +1313,21 @@ input[onclick*="window.open"] {
     border-radius: 8px 0 8px 8px;
 }
 
-
+span#Masthead\:utilityBar {
+    width: 100%;
+    padding: 4px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+span#Masthead\:utilityBar a,
+span#Masthead\:utilityBar input[type="submit"] {
+    margin-left: 0;
+    margin-right: 10px;
+}
 
 /* Home page links */
-input[name*="helpLink"][onclick*="return false"],
+span#Masthead\:utilityBar a,
+input[name*="utilityBar"][onclick*="return false"],
 .commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."],
 .mastheadButton_4_sun4 a {
     background: transparent;
@@ -1318,9 +1335,11 @@ input[name*="helpLink"][onclick*="return false"],
     padding: 12px 15px;
     border-radius: 3px;
     border: none;
+    outline: none;
     text-decoration: underline;
 }
-input[name*="helpLink"][onclick*="return false"]:hover,
+span#Masthead\:utilityBar a:hover,
+input[name*="utilityBar"][onclick*="return false"]:hover,
 .commonTask_4_sun4 a.TskScnTxtBg_sun4:link[onclick*=".payara."]:hover,
 .mastheadButton_4_sun4 a:hover {
     text-decoration: none;
