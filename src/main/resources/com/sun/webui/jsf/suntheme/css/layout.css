@@ -777,6 +777,7 @@ a.MstLnk_sun4:hover,a.MstLnkLft_sun4:hover, a.MstLnkRt_sun4:hover, a.MstLnkCen_s
 .MstTblEnd_sun4 {
     background-repeat:repeat-x;
     background-position:left top;
+    width: auto;
 }
 .MstTblEnd_sun4 tr > td {
     padding:1px 0 2px 0;
@@ -1271,9 +1272,6 @@ select + br + br {
 }
 
 /* Header statuses */
-.MstTblBot_sun4 {
-    width: auto;
-}
 .MstTblBot_sun4 td {
     display: flex;
     flex-flow: row-reverse nowrap;
