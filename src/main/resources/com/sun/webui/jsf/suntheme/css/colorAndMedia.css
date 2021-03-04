@@ -991,6 +991,14 @@ input[type="submit"]:hover,
 a.TskScnTxtBg_sun4:not([onclick*=".payara."]):hover {
     background: #315462;
 }
+input[type="submit"]:disabled {
+    font-style: italic;
+    color: #ccc;
+    color: rgba(255,255,255,0.5);
+}
+input[type="submit"]:disabled:hover {
+    background: #1A4151;
+}
 
 /* Home page links */
 input[name*="utilityBar"]:hover {
